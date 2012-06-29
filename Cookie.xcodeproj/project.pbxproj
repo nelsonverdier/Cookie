@@ -14,6 +14,7 @@
 		75285825159E4DC500010727 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75285824159E4DC500010727 /* AppDelegate.m */; };
 		75285828159E4DC500010727 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75285826159E4DC500010727 /* MainMenu.xib */; };
 		75285830159E4E3800010727 /* CORecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7528582F159E4E3800010727 /* CORecipe.m */; };
+		75285839159E626800010727 /* COIngredient.m in Sources */ = {isa = PBXBuildFile; fileRef = 75285838159E626800010727 /* COIngredient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		75285827159E4DC500010727 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7528582E159E4E3800010727 /* CORecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CORecipe.h; path = ../CORecipe.h; sourceTree = "<group>"; };
 		7528582F159E4E3800010727 /* CORecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CORecipe.m; path = ../CORecipe.m; sourceTree = "<group>"; };
+		75285837159E626800010727 /* COIngredient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COIngredient.h; sourceTree = "<group>"; };
+		75285838159E626800010727 /* COIngredient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COIngredient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				75285823159E4DC500010727 /* AppDelegate.h */,
 				7528582E159E4E3800010727 /* CORecipe.h */,
+				75285837159E626800010727 /* COIngredient.h */,
+				75285838159E626800010727 /* COIngredient.m */,
 				7528582F159E4E3800010727 /* CORecipe.m */,
 				75285824159E4DC500010727 /* AppDelegate.m */,
 				75285826159E4DC500010727 /* MainMenu.xib */,
@@ -181,6 +186,7 @@
 				7528581E159E4DC500010727 /* main.m in Sources */,
 				75285825159E4DC500010727 /* AppDelegate.m in Sources */,
 				75285830159E4E3800010727 /* CORecipe.m in Sources */,
+				75285839159E626800010727 /* COIngredient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
